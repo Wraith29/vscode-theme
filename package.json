@@ -1,0 +1,21 @@
+{
+  "name": "wraith29-theme",
+  "displayName": "custom",
+  "description": "my theme lol",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "wraith29-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wraith29-theme-color-theme.json"
+      }
+    ]
+  }
+}
